@@ -1,0 +1,15 @@
+{
+  "name": "bitcoin-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bitcoin.js",
+  "dependencies": {
+    "jest": "^22.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": ""
+}
