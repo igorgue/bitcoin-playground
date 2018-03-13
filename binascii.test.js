@@ -1,7 +1,7 @@
 var binascii = require('./binascii')
 
-var name = 'igor guerrero'
-var hex = '69676f7220677565727265726f'
+var name = 'Bitcoin'
+var hex = '426974636f696e'
 
 test('generates a hexstring from ascii', () => {
   expect(
