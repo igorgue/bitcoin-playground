@@ -12,8 +12,20 @@ test('can read bytes from a string', () => {
   )
 
   expect(
-    bytesStream.read(4)
+    bytesStream.read(3)
   ).toBe(
-    'coin'
+    'coi'
+  )
+
+  expect(
+    bytesStream.read(1)
+  ).toBe(
+    'n'
+  )
+
+  expect(
+    bytesStream.read(1)
+  ).toBe(
+    ''
   )
 })

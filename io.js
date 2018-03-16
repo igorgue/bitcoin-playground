@@ -9,7 +9,7 @@ class BytesIO {
 
   read(bytesAmount) {
     var buff = this.data.slice(this.offset, this.offset + bytesAmount)
-    var data = buff.toString('ascii', this.offset, buff.length)
+    var data = buff.toString(encoding, 0)
 
     this.offset += bytesAmount
 
