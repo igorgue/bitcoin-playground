@@ -4,7 +4,8 @@
   "description": "",
   "main": "bitcoin.js",
   "dependencies": {
-    "jest": "^22.4.2"
+    "jest": "^22.4.2",
+    "supersha": "0.0.1"
   },
   "devDependencies": {
     "jest-environment-node-debug": "^2.0.0"
@@ -12,13 +13,13 @@
   "scripts": {
     "test": "jest"
   },
-	"author": "",
-	"license": "",
-	"args": [
-		"--runInBand",
-		"--no-cache"
-	],
-	"runtimeArgs": [
-		"--inspect-brk"
-	]
+  "author": "",
+  "license": "",
+  "args": [
+    "--runInBand",
+    "--no-cache"
+  ],
+  "runtimeArgs": [
+    "--inspect-brk"
+  ]
 }
