@@ -6,10 +6,19 @@
   "dependencies": {
     "jest": "^22.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest-environment-node-debug": "^2.0.0"
+  },
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": ""
+	"author": "",
+	"license": "",
+	"args": [
+		"--runInBand",
+		"--no-cache"
+	],
+	"runtimeArgs": [
+		"--inspect-brk"
+	]
 }

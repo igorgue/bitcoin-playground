@@ -1,13 +1,7 @@
 var hexlify = (string) => {
-  var result = ''
+  var buffer = Buffer.from(string)
 
-  for (var i = 0; i < string.length; i++) {
-    var hex = string.charCodeAt(i).toString(16)
-
-    result += hex
-  }
-
-  return result
+  return buffer.toString('hex')
 }
 
 var unhexlify = (hex) => {
